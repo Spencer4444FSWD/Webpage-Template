@@ -11,7 +11,7 @@ This README provides essential information to help you get started with and cust
 * **Easy Color Customization:** Leverage Microsoft VS Code's built-in color picker for quick and intuitive color changes.
 * **Call to Action:** Includes a fully functional Donate button, ready for immediate use.
 * **Template Only Styling:** The initial all-caps text and vibrant, contrasting colors are intentionally used to highlight placeholder content and specific elements. This helps you visually track where your content and stylistic changes will take effect as you customize the code.
-* **Effortless Image Handling:** Simply add your images, and our smart CSS ensures they look perfect and responsive on any device, automatically adapting to screen sizes without manual adjustments."
+* **Effortless Image Handling:** Simply add your images, and our smart CSS ensures they look perfect and responsive on any device, automatically adapting to screen sizes without manual adjustments.
 
 ---
 
