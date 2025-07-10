@@ -41,6 +41,7 @@ The colors in this template are easy to customize, letting you enhance the end-u
 
     You will see **color squares** appear directly next to these elements. Clicking on a color square will open a color palette, letting you visually select a new color or type in a precise new value.
 3.  **Save Your Work:** Hit **Ctrl+S (or Cmd+S on Mac)** to save your file. Your changes will automatically reflect in the webpage preview from the Live Server interface.
+4.  **Adding Images:** You can add an image to the website by opening the image folder in my-website-template placing your desired image into the image folder after moving the old image. Once the desired image is in the folder rename it to my-photo.jpg
 
 ---
 
