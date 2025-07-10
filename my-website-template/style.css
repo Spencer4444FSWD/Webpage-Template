@@ -59,6 +59,11 @@ body {
     text-align: left;
 }
 
+.main-content img {
+    max-width: 100%;
+    max-height: auto;
+}
+
 .sidebar {
     grid-column: 1/2;
     grid-row: 2/3;
