@@ -42,9 +42,6 @@ body {
     list-style: none;
     padding: 0;
     margin: 10px 0 0 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
 }
 
 .header nav a {
@@ -117,6 +114,64 @@ body {
 
 .main-content p .btn {
     margin-top: 15px;
+}
+#main-nav ul {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 250px;
+    background: rgba(138, 43, 43, 0.7);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    list-style: none;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out, visibility 0.3s, opacity 0.3s;
+    visibility: hidden;
+}
+#main-nav ul li {
+    margin-bottom: 10px;
+}
+.nav-toggle {
+    display: block;
+    border: none;
+    background: rgba(168, 94, 94, 0.7);
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    z-index: 10;
+}
+.hamburger {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 25px;
+    height: 2px;
+    background: #333;
+    transition: transform 0.2s ease-in-out;
+}
+.hamburger::before {
+    top: -8px;
+}
+.hamburger::after {
+    top: 8px;
+}
+#main-nav.active ul {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+}
+.nav-toggle.active .hamburger {
+    transform: rotate(45deg);
+    background: transparent;
+}
+.nav-toggle.active .hamburger::before {
+    transform: translateY(8px) rotate(90deg);
+}
+.nav-toggle.active .hamburger::after {
+    transform: translateY(-8px) rotate(90deg);
 }
 
 
