@@ -7,14 +7,23 @@ This website is a simple, three-page site designed to showcase the work of **[YO
 Your website is organized into a single, main folder. Inside that folder, you have your core files and a folder for images.
 
 my-website-template/
+
 ├── index.html          (Your Home Page)
+
 ├── page1.html          (The second page, "NAV ONE")
+
 ├── page2.html          (The third page, "NAV TWO")
+
 ├── style.css           (Controls all website colors, fonts, and layout)
+
 ├── script.js           (Controls the mobile hamburger menu)
+
 └── images/
+
 ├── my-photo.jpg    (Photo for your home page)
+
 ├── my-photo1.jpg   (Photo for your "NAV ONE" page)
+
 └── my-photo2.jpg   (Photo for your "NAV TWO" page)
 
 ### How to View and Edit the Website
