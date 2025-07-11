@@ -1,7 +1,7 @@
 # Website Maintenance Guide
 
 ### Project Overview
-This website is a simple, three-page site designed to showcase the work of **[YOUR ORGANIZATION]**. The site has a clean, responsive layout and a navigation menu that works on both desktop and mobile devices.
+This website is a simple, three-page site designed to showcase the work of **YOUR ORGANIZATION**. The site has a clean, responsive layout and a navigation menu that works on both desktop and mobile devices.
 
 ### File Structure
 Your website is organized into a single, main folder. Inside that folder, you have your core files and a folder for images.
