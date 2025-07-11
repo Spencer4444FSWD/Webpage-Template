@@ -146,6 +146,15 @@ body {
 .hamburger {
     display: block;
     position: absolute;
+    width: 25px;
+    height: 2px;
+    background: #333;
+    transition: transform 0.2s ease-in-out;
+}
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
     left: 0;
     width: 25px;
     height: 2px;
